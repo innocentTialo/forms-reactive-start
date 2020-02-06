@@ -1,3 +1,13 @@
 .container {
   margin-top: 30px;
 }
+
+input.ng-invalid.ng-touched {
+  border-color: #ff688f;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 22, 34, 0.6);
+}
+
+button {
+  margin: 10px 0;
+}
